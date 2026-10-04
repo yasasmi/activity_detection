@@ -317,7 +317,7 @@ python -m activity_detection.evaluate_events --events outputs/new_review/bed_eve
 UNKNOWN labels are included in classification evaluation.
 
 Events are matched one-to-one by event type and start time.
-The default start-time tolerance is one second and is configurable with --tolerance-sec.
+The default start - time tolerance is one second and is configurable with --tolerance-sec.
 
 Metrics with undefined denominators are saved as null and displayedas N/A. 
 No-event clips do not establish event-detection recall.
@@ -340,7 +340,7 @@ For the second clip after review:
 - Exit precision: N/A.
 - Exit F1: 0%.
 
-Neither clip contains an annotated return-to-bed event.
+Neither clip contains an annotated return to bed event.
 
 Three of the four correct activity predictions in the second reviewed clip are UNKNOWN. 
 Standing and walking were still missed.
@@ -349,7 +349,7 @@ Prompts changed during development. These results are historical development run
 Re-running with the current code may produce different results.
 
 The annotations were created after inspecting model outputs, and transition times are approximate. 
-An independent held-out evaluation
+An independent held out evaluation
 has not been completed.
 
 ## Tests
@@ -364,7 +364,7 @@ The existing 19 unit tests passed:
 - Seven monitoring tests.
 - Five context-review tests.
 
-Context-review tests use mocked model responses. These tests verify
+Context - review tests use mocked model responses. These tests verify
 selected program behaviour, not visual recognition accuracy.
 The evaluation scripts do not yet have a dedicated unit-test suite.
 
@@ -397,7 +397,7 @@ The evaluation scripts do not yet have a dedicated unit-test suite.
 
 See docs/failure_cases.md for observed failures and supporting outputs.
 
-## Potential improvements — not implemented
+## Potential improvements - not implemented
 
 - Explicit target-person and bed-region configuration.
 - Better detection of inconsistent or uncertain observations.
