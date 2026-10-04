@@ -13,16 +13,17 @@ It has not been validated for real-world care use.
 
 ## Supported activities
 
-| Label               | Meaning |
-| LYING_IN_BED        | Lying supported by the bed |
-| SITTING_ON_BED      | Sitting supported by the bed |
+| Label | Meaning |
+| --- | --- |
+| LYING_IN_BED | Lying supported by the bed |
+| SITTING_ON_BED | Sitting supported by the bed |
 | SITTING_OUTSIDE_BED | Sitting on a surface outside the bed |
-| STANDING            | Upright on feet on the floor |
-| WALKING             | Visible stepping and movement across frames |
-| OUT_OF_BED          | Clearly outside the bed, specific activity unclear |
-| UNKNOWN             | Insufficient evidence to determine activity |
+| STANDING | Upright on feet on the floor |
+| WALKING | Visible stepping and movement across frames |
+| OUT_OF_BED | Clearly outside the bed, specific activity unclear |
+| UNKNOWN | Insufficient evidence to determine activity |
 
-Bed occupancy is represented separately as IN_BED, OUT_OF_BED or UNKNOWN.
+Bed occupancy is represented separately as `IN_BED`, `OUT_OF_BED` or `UNKNOWN`.
 
 ## Architecture
 
