@@ -1,0 +1,31 @@
+{
+  "source_video": "/Users/kusal/Documents/activity_detection/data/room_02.mp4",
+  "ground_truth_file": "data/annotations/room_02_ground_truth.json",
+  "matching_policy": "Same event type, one-to-one chronological matching using start_sec within the configured tolerance.",
+  "start_time_tolerance_sec": 1.0,
+  "undefined_metric_policy": "JSON null; displayed as N/A",
+  "results": {
+    "bed_exit": {
+      "actual_count": 1,
+      "predicted_count": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 1,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matches": []
+    },
+    "return_to_bed": {
+      "actual_count": 0,
+      "predicted_count": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "matches": []
+    }
+  }
+}

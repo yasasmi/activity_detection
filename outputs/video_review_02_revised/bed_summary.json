@@ -1,0 +1,24 @@
+{
+  "data_source": "video_model_predictions",
+  "source_video": "/Users/kusal/Documents/activity_detection/data/room_02.mp4",
+  "observation_duration_sec": 8.12,
+  "duration_policy": "Hold each bed-status label until the next sample; hold the final label until the analyzed video ends. UNKNOWN breaks continuous out-of-bed intervals.",
+  "timeline": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 6.5,
+      "bed_status": "IN_BED"
+    },
+    {
+      "start_sec": 6.5,
+      "end_sec": 8.12,
+      "bed_status": "UNKNOWN"
+    }
+  ],
+  "bed_duration_sec": {
+    "IN_BED": 6.5,
+    "OUT_OF_BED": 0.0,
+    "UNKNOWN": 1.6199999999999992
+  },
+  "longest_predicted_continuous_out_of_bed_sec": 0.0
+}

@@ -1,0 +1,170 @@
+{
+  "data_source": "reviewed_video_model_predictions",
+  "source_video": "/Users/kusal/Documents/activity_detection/data/room_02.mp4",
+  "mode": "offline_retrospective_monitoring",
+  "absence_alert_threshold_sec": 180.0,
+  "unknown_policy": "Reset continuous occupancy timer; retain unresolved exit.",
+  "timing_policy": "Decisions describe sampled observation times. Availability includes any future context used. No absence time is added solely because review is delayed.",
+  "decisions": [
+    {
+      "observation_time_sec": 0.0,
+      "decision_available_at_sec": 0.0,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "NORMAL",
+      "reason": "Known activity with the person observed in bed."
+    },
+    {
+      "observation_time_sec": 0.5,
+      "decision_available_at_sec": 0.5,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "NORMAL",
+      "reason": "Known activity with the person observed in bed."
+    },
+    {
+      "observation_time_sec": 1.0,
+      "decision_available_at_sec": 1.0,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "NORMAL",
+      "reason": "Known activity with the person observed in bed."
+    },
+    {
+      "observation_time_sec": 1.5,
+      "decision_available_at_sec": 1.5,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "NORMAL",
+      "reason": "Known activity with the person observed in bed."
+    },
+    {
+      "observation_time_sec": 2.0,
+      "decision_available_at_sec": 2.0,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "NORMAL",
+      "reason": "Known activity with the person observed in bed."
+    },
+    {
+      "observation_time_sec": 2.5,
+      "decision_available_at_sec": 2.5,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "NORMAL",
+      "reason": "Known activity with the person observed in bed."
+    },
+    {
+      "observation_time_sec": 3.0,
+      "decision_available_at_sec": 3.0,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "NORMAL",
+      "reason": "Known activity with the person observed in bed."
+    },
+    {
+      "observation_time_sec": 3.5,
+      "decision_available_at_sec": 3.5,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "NORMAL",
+      "reason": "Known activity with the person observed in bed."
+    },
+    {
+      "observation_time_sec": 4.0,
+      "decision_available_at_sec": 4.0,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "NORMAL",
+      "reason": "Known activity with the person observed in bed."
+    },
+    {
+      "observation_time_sec": 4.5,
+      "decision_available_at_sec": 6.5,
+      "state": "SITTING_ON_BED",
+      "bed_status": "IN_BED",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "NORMAL",
+      "reason": "Known activity with the person observed in bed."
+    },
+    {
+      "observation_time_sec": 5.0,
+      "decision_available_at_sec": 7.0,
+      "state": "SITTING_ON_BED",
+      "bed_status": "IN_BED",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "NORMAL",
+      "reason": "Known activity with the person observed in bed."
+    },
+    {
+      "observation_time_sec": 5.5,
+      "decision_available_at_sec": 7.5,
+      "state": "SITTING_ON_BED",
+      "bed_status": "IN_BED",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "NORMAL",
+      "reason": "Known activity with the person observed in bed."
+    },
+    {
+      "observation_time_sec": 6.0,
+      "decision_available_at_sec": 7.5,
+      "state": "SITTING_ON_BED",
+      "bed_status": "IN_BED",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "NORMAL",
+      "reason": "Known activity with the person observed in bed."
+    },
+    {
+      "observation_time_sec": 6.5,
+      "decision_available_at_sec": 7.5,
+      "state": "UNKNOWN",
+      "bed_status": "UNKNOWN",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "MONITOR",
+      "reason": "Activity or bed occupancy is unresolved."
+    },
+    {
+      "observation_time_sec": 7.0,
+      "decision_available_at_sec": 7.5,
+      "state": "UNKNOWN",
+      "bed_status": "UNKNOWN",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "MONITOR",
+      "reason": "Activity or bed occupancy is unresolved."
+    },
+    {
+      "observation_time_sec": 7.5,
+      "decision_available_at_sec": 7.5,
+      "state": "UNKNOWN",
+      "bed_status": "UNKNOWN",
+      "unresolved_confirmed_exit": false,
+      "continuous_predicted_out_of_bed_sec": 0.0,
+      "decision": "MONITOR",
+      "reason": "Activity or bed occupancy is unresolved."
+    }
+  ]
+}

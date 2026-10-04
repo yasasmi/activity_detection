@@ -1,0 +1,41 @@
+{
+  "video_file": "data/room_02.mp4",
+  "duration_sec": 8.12,
+  "annotation_source": "manual_user_video_review",
+  "timestamp_precision": "approximate",
+  "timeline": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 5.0,
+      "state": "SITTING_ON_BED",
+      "bed_status": "IN_BED"
+    },
+    {
+      "start_sec": 5.0,
+      "end_sec": 5.5,
+      "state": "STANDING",
+      "bed_status": "OUT_OF_BED"
+    },
+    {
+      "start_sec": 5.5,
+      "end_sec": 6.0,
+      "state": "WALKING",
+      "bed_status": "OUT_OF_BED"
+    },
+    {
+      "start_sec": 6.0,
+      "end_sec": 8.12,
+      "state": "UNKNOWN",
+      "bed_status": "UNKNOWN"
+    }
+  ],
+  "events": [
+    {
+      "event": "bed_exit",
+      "start_sec": 5.0,
+      "confirmed_sec": 5.5,
+      "evidence": "Person stood from the bed and then visibly walked away before leaving the camera view around 6 seconds."
+    }
+  ],
+  "scene_cuts_verified": false
+}

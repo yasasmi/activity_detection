@@ -1,0 +1,33 @@
+{
+  "data_source": "video_model_predictions",
+  "source_video": "/Users/kusal/Documents/activity_detection/data/room_02.mp4",
+  "observation_duration_sec": 8.12,
+  "duration_policy": "Each sampled label is held until the next timestamp; the final label is held until the analyzed video ends.",
+  "timeline": [
+    {
+      "start_sec": 0,
+      "end_sec": 4.5,
+      "state": "LYING_IN_BED"
+    },
+    {
+      "start_sec": 4.5,
+      "end_sec": 6.5,
+      "state": "SITTING_ON_BED"
+    },
+    {
+      "start_sec": 6.5,
+      "end_sec": 8.12,
+      "state": "UNKNOWN"
+    }
+  ],
+  "activity_duration_sec": {
+    "LYING_IN_BED": 4.5,
+    "SITTING_ON_BED": 2.0,
+    "SITTING_OUTSIDE_BED": 0,
+    "STANDING": 0,
+    "WALKING": 0,
+    "OUT_OF_BED": 0,
+    "UNKNOWN": 1.6199999999999992
+  },
+  "total_accounted_sec": 8.12
+}

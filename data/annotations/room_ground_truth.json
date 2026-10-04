@@ -1,0 +1,16 @@
+{
+  "video_file": "data/room.mp4",
+  "duration_sec": 19.68,
+  "annotation_source": "manual_user_video_review",
+  "timeline": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 19.68,
+      "state": "SITTING_ON_BED",
+      "bed_status": "IN_BED",
+      "evidence": "Torso upright against the headboard, legs extended on the bed, reading a black book. Legs move side to side."
+    }
+  ],
+  "events": [],
+  "scene_cuts_verified": false
+}

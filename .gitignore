@@ -1,0 +1,32 @@
+
+# Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Backups
+*.backup*
+*.before_*
+backup_*/
+
+# Model weights and caches
+*.safetensors
+*.pt
+*.pth
+.cache/
+
+# Videos and extracted frames
+*.mp4
+*.mov
+video_frames*/
+
+# Local secrets
+.env
+.env.*
+
+# Keep only final reviewed results
+/outputs/*
+!/outputs/video_review_01/
+!/outputs/video_review_02_revised/

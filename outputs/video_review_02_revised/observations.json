@@ -1,0 +1,426 @@
+{
+  "data_source": "video_model_predictions",
+  "source_video": "/Users/kusal/Documents/activity_detection/data/room_02.mp4",
+  "observation_duration_sec": 8.12,
+  "sample_fps": 2.0,
+  "context_policy": "current frame and up to 3 earlier frames",
+  "observations": [
+    {
+      "time_sec": 0.0,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "person_visible": true,
+      "evidence_quality": "clear",
+      "evidence": "A person is lying on their back on the bed, with their legs extended and slightly raised.",
+      "context_timestamps_sec": [
+        0.0
+      ],
+      "validation_passed": true,
+      "validation_error": null,
+      "raw_response": "```json\n{\n  \"state\": \"LYING_IN_BED\",\n  \"bed_status\": \"IN_BED\",\n  \"person_visible\": true,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"A person is lying on their back on the bed, with their legs extended and slightly raised.\"\n}\n```",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "Direction was not assessed.",
+      "available_at_sec": 0.0,
+      "review_reasons": [],
+      "review_attempts": 0
+    },
+    {
+      "time_sec": 0.5,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "person_visible": true,
+      "evidence_quality": "clear",
+      "evidence": "A person is lying on their back on the bed, with their legs extended and slightly bent at the knees.",
+      "context_timestamps_sec": [
+        0.0,
+        0.5
+      ],
+      "validation_passed": true,
+      "validation_error": null,
+      "raw_response": "```json\n{\n  \"state\": \"LYING_IN_BED\",\n  \"bed_status\": \"IN_BED\",\n  \"person_visible\": true,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"A person is lying on their back on the bed, with their legs extended and slightly bent at the knees.\"\n}\n```",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "Direction was not assessed.",
+      "available_at_sec": 0.5,
+      "review_reasons": [],
+      "review_attempts": 0
+    },
+    {
+      "time_sec": 1.0,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "person_visible": true,
+      "evidence_quality": "clear",
+      "evidence": "A woman is sitting on the edge of a bed, with her legs extended and her body leaning slightly forward.",
+      "context_timestamps_sec": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "validation_passed": true,
+      "validation_error": null,
+      "raw_response": "```json\n{\n  \"state\": \"LYING_IN_BED\",\n  \"bed_status\": \"IN_BED\",\n  \"person_visible\": true,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"A woman is sitting on the edge of a bed, with her legs extended and her body leaning slightly forward.\"\n}\n```",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "Direction was not assessed.",
+      "available_at_sec": 1.0,
+      "review_reasons": [],
+      "review_attempts": 0
+    },
+    {
+      "time_sec": 1.5,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "person_visible": true,
+      "evidence_quality": "clear",
+      "evidence": "A woman is sitting on the edge of a bed, with her legs extended and her body leaning slightly forward.",
+      "context_timestamps_sec": [
+        0.0,
+        0.5,
+        1.0,
+        1.5
+      ],
+      "validation_passed": true,
+      "validation_error": null,
+      "raw_response": "```json\n{\n  \"state\": \"LYING_IN_BED\",\n  \"bed_status\": \"IN_BED\",\n  \"person_visible\": true,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"A woman is sitting on the edge of a bed, with her legs extended and her body leaning slightly forward.\"\n}\n```",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "Direction was not assessed.",
+      "available_at_sec": 1.5,
+      "review_reasons": [],
+      "review_attempts": 0
+    },
+    {
+      "time_sec": 2.0,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "person_visible": true,
+      "evidence_quality": "clear",
+      "evidence": "A woman is sitting on the edge of a bed, with her legs dangling off the side.",
+      "context_timestamps_sec": [
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "validation_passed": true,
+      "validation_error": null,
+      "raw_response": "```json\n{\n  \"state\": \"LYING_IN_BED\",\n  \"bed_status\": \"IN_BED\",\n  \"person_visible\": true,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"A woman is sitting on the edge of a bed, with her legs dangling off the side.\"\n}\n```",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "Direction was not assessed.",
+      "available_at_sec": 2.0,
+      "review_reasons": [],
+      "review_attempts": 0
+    },
+    {
+      "time_sec": 2.5,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "person_visible": true,
+      "evidence_quality": "clear",
+      "evidence": "A woman is sitting on the edge of a bed, with her legs dangling off the side.",
+      "context_timestamps_sec": [
+        1.0,
+        1.5,
+        2.0,
+        2.5
+      ],
+      "validation_passed": true,
+      "validation_error": null,
+      "raw_response": "```json\n{\n  \"state\": \"LYING_IN_BED\",\n  \"bed_status\": \"IN_BED\",\n  \"person_visible\": true,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"A woman is sitting on the edge of a bed, with her legs dangling off the side.\"\n}\n```",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "Direction was not assessed.",
+      "available_at_sec": 2.5,
+      "review_reasons": [],
+      "review_attempts": 0
+    },
+    {
+      "time_sec": 3.0,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "person_visible": true,
+      "evidence_quality": "clear",
+      "evidence": "The person is lying down on the bed, with their legs extended and body relaxed.",
+      "context_timestamps_sec": [
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "validation_passed": true,
+      "validation_error": null,
+      "raw_response": "{\n  \"state\": \"LYING_IN_BED\",\n  \"bed_status\": \"IN_BED\",\n  \"person_visible\": true,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"The person is lying down on the bed, with their legs extended and body relaxed.\"\n}",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "Direction was not assessed.",
+      "available_at_sec": 3.0,
+      "review_reasons": [],
+      "review_attempts": 0
+    },
+    {
+      "time_sec": 3.5,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "person_visible": true,
+      "evidence_quality": "clear",
+      "evidence": "A woman is sitting on the edge of the bed, with her legs dangling over the side.",
+      "context_timestamps_sec": [
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "validation_passed": true,
+      "validation_error": null,
+      "raw_response": "{\n  \"state\": \"LYING_IN_BED\",\n  \"bed_status\": \"IN_BED\",\n  \"person_visible\": true,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"A woman is sitting on the edge of the bed, with her legs dangling over the side.\"\n}",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "Direction was not assessed.",
+      "available_at_sec": 3.5,
+      "review_reasons": [],
+      "review_attempts": 0
+    },
+    {
+      "time_sec": 4.0,
+      "state": "LYING_IN_BED",
+      "bed_status": "IN_BED",
+      "person_visible": true,
+      "evidence_quality": "clear",
+      "evidence": "The person is lying down on the bed, with their legs bent and resting on the mattress.",
+      "context_timestamps_sec": [
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "validation_passed": true,
+      "validation_error": null,
+      "raw_response": "{\n  \"state\": \"LYING_IN_BED\",\n  \"bed_status\": \"IN_BED\",\n  \"person_visible\": true,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"The person is lying down on the bed, with their legs bent and resting on the mattress.\"\n}",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "Direction was not assessed.",
+      "available_at_sec": 4.0,
+      "review_reasons": [],
+      "review_attempts": 0
+    },
+    {
+      "time_sec": 4.5,
+      "state": "SITTING_ON_BED",
+      "bed_status": "IN_BED",
+      "person_visible": true,
+      "evidence_quality": "clear",
+      "evidence": "The person is sitting on the bed with their legs hanging over the edge.",
+      "context_timestamps_sec": [
+        2.5,
+        3.0,
+        4.0,
+        4.5,
+        5.0,
+        6.0,
+        6.5
+      ],
+      "validation_passed": true,
+      "validation_error": null,
+      "raw_response": "```json\n{\n  \"state\": \"SITTING_ON_BED\",\n  \"bed_status\": \"IN_BED\",\n  \"person_visible\": true,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"The person is sitting on the bed with their legs hanging over the edge.\",\n  \"moving_away\": null,\n  \"approaching_bed\": null,\n  \"movement_evidence\": \"The person is standing up from the bed.\"\n}\n```",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "The person is standing up from the bed.",
+      "available_at_sec": 6.5,
+      "review_reasons": [
+        "invalid_response",
+        "uncertain_observation",
+        "activity_or_occupancy_transition"
+      ],
+      "review_attempts": 1
+    },
+    {
+      "time_sec": 5.0,
+      "state": "SITTING_ON_BED",
+      "bed_status": "IN_BED",
+      "person_visible": true,
+      "evidence_quality": "clear",
+      "evidence": "A woman is sitting on the edge of the bed with her legs hanging over the side.",
+      "context_timestamps_sec": [
+        3.0,
+        3.5,
+        4.5,
+        5.0,
+        5.5,
+        6.5,
+        7.0
+      ],
+      "validation_passed": true,
+      "validation_error": null,
+      "raw_response": "```json\n{\n  \"state\": \"SITTING_ON_BED\",\n  \"bed_status\": \"IN_BED\",\n  \"person_visible\": true,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"A woman is sitting on the edge of the bed with her legs hanging over the side.\",\n  \"moving_away\": null,\n  \"approaching_bed\": null,\n  \"movement_evidence\": \"The woman is standing up from the bed.\"\n}\n```",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "The woman is standing up from the bed.",
+      "available_at_sec": 7.0,
+      "review_reasons": [
+        "invalid_response",
+        "uncertain_observation",
+        "activity_or_occupancy_transition"
+      ],
+      "review_attempts": 1
+    },
+    {
+      "time_sec": 5.5,
+      "state": "SITTING_ON_BED",
+      "bed_status": "IN_BED",
+      "person_visible": true,
+      "evidence_quality": "clear",
+      "evidence": "A woman is sitting on the edge of the bed with her legs hanging over the side.",
+      "context_timestamps_sec": [
+        3.5,
+        4.0,
+        5.0,
+        5.5,
+        6.0,
+        7.0,
+        7.5
+      ],
+      "validation_passed": true,
+      "validation_error": null,
+      "raw_response": "```json\n{\n  \"state\": \"SITTING_ON_BED\",\n  \"bed_status\": \"IN_BED\",\n  \"person_visible\": true,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"A woman is sitting on the edge of the bed with her legs hanging over the side.\",\n  \"moving_away\": null,\n  \"approaching_bed\": null,\n  \"movement_evidence\": \"The woman is standing up and walking away from the bed.\"\n}\n```",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "The woman is standing up and walking away from the bed.",
+      "available_at_sec": 7.5,
+      "review_reasons": [
+        "outside_bed_needs_movement_evidence",
+        "activity_or_occupancy_transition"
+      ],
+      "review_attempts": 1
+    },
+    {
+      "time_sec": 6.0,
+      "state": "SITTING_ON_BED",
+      "bed_status": "IN_BED",
+      "person_visible": true,
+      "evidence_quality": "clear",
+      "evidence": "A woman is sitting on the edge of the bed, her legs hanging off the side.",
+      "context_timestamps_sec": [
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        5.5,
+        6.0,
+        6.5,
+        7.5
+      ],
+      "validation_passed": true,
+      "validation_error": null,
+      "raw_response": "```json\n{\n  \"state\": \"SITTING_ON_BED\",\n  \"bed_status\": \"IN_BED\",\n  \"person_visible\": true,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"A woman is sitting on the edge of the bed, her legs hanging off the side.\",\n  \"moving_away\": null,\n  \"approaching_bed\": null,\n  \"movement_evidence\": \"The woman is standing up and walking away from the bed.\"\n}\n```",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "The woman is standing up and walking away from the bed.",
+      "available_at_sec": 7.5,
+      "review_reasons": [
+        "outside_bed_needs_movement_evidence",
+        "activity_or_occupancy_transition"
+      ],
+      "review_attempts": 2
+    },
+    {
+      "time_sec": 6.5,
+      "state": "UNKNOWN",
+      "bed_status": "UNKNOWN",
+      "person_visible": null,
+      "evidence_quality": "insufficient",
+      "evidence": "Context review exhausted without resolution.",
+      "context_timestamps_sec": [
+        2.5,
+        3.5,
+        4.0,
+        5.0,
+        6.0,
+        6.5,
+        7.5
+      ],
+      "validation_passed": false,
+      "validation_error": "context_review_unresolved",
+      "raw_response": "```json\n{\n  \"state\": \"WALKING\",\n  \"bed_status\": \"OUT_OF_BED\",\n  \"person_visible\": true,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"A woman is standing and walking away from the bed.\",\n  \"moving_away\": true,\n  \"approaching_bed\": null,\n  \"movement_evidence\": \"The woman is walking away from the bed.\"\n}\n```",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "Unresolved after bounded review.",
+      "available_at_sec": 7.5,
+      "review_reasons": [
+        "outside_bed_needs_movement_evidence",
+        "activity_or_occupancy_transition"
+      ],
+      "review_attempts": 2
+    },
+    {
+      "time_sec": 7.0,
+      "state": "UNKNOWN",
+      "bed_status": "UNKNOWN",
+      "person_visible": null,
+      "evidence_quality": "insufficient",
+      "evidence": "Context review exhausted without resolution.",
+      "context_timestamps_sec": [
+        3.0,
+        4.0,
+        4.5,
+        5.0,
+        6.0,
+        7.0,
+        7.5
+      ],
+      "validation_passed": false,
+      "validation_error": "context_review_unresolved",
+      "raw_response": "```json\n{\n  \"state\": \"OUT_OF_BED\",\n  \"bed_status\": \"IN_BED\",\n  \"person_visible\": false,\n  \"evidence_quality\": \"partial\",\n  \"evidence\": \"The person is standing near the bed, facing away from the camera.\",\n  \"moving_away\": true,\n  \"approaching_bed\": null,\n  \"movement_evidence\": \"The person is walking away from the bed.\"\n}\n```",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "Unresolved after bounded review.",
+      "available_at_sec": 7.5,
+      "review_reasons": [
+        "outside_bed_needs_movement_evidence",
+        "activity_or_occupancy_transition"
+      ],
+      "review_attempts": 2
+    },
+    {
+      "time_sec": 7.5,
+      "state": "UNKNOWN",
+      "bed_status": "UNKNOWN",
+      "person_visible": null,
+      "evidence_quality": "insufficient",
+      "evidence": "Context review exhausted without resolution.",
+      "context_timestamps_sec": [
+        3.5,
+        4.0,
+        5.0,
+        5.5,
+        6.0,
+        7.0,
+        7.5
+      ],
+      "validation_passed": false,
+      "validation_error": "context_review_unresolved",
+      "raw_response": "```json\n{\n  \"state\": \"OUT_OF_BED\",\n  \"bed_status\": \"OUT_OF_BED\",\n  \"person_visible\": false,\n  \"evidence_quality\": \"clear\",\n  \"evidence\": \"The bed is empty and there is no visible person.\",\n  \"moving_away\": null,\n  \"approaching_bed\": null,\n  \"movement_evidence\": \"The bed is empty and there is no visible person.\"\n}\n```",
+      "moving_away": null,
+      "approaching_bed": null,
+      "movement_evidence": "Unresolved after bounded review.",
+      "available_at_sec": 7.5,
+      "review_reasons": [
+        "outside_bed_needs_movement_evidence",
+        "activity_or_occupancy_transition"
+      ],
+      "review_attempts": 2
+    }
+  ],
+  "review_policy": {
+    "max_attempts": 2,
+    "max_context_frames": 8,
+    "context_radius_sec": [
+      2,
+      4
+    ],
+    "mode": "offline_review_with_possible_future_context",
+    "unresolved_policy": "UNKNOWN"
+  }
+}

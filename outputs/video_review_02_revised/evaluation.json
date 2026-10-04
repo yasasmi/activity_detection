@@ -1,0 +1,144 @@
+{
+  "source_video": "/Users/kusal/Documents/activity_detection/data/room_02.mp4",
+  "ground_truth_file": "data/annotations/room_02_ground_truth.json",
+  "annotation_source": "manual_user_video_review",
+  "duration_sec": 8.12,
+  "observation_count": 16,
+  "activity_correct_count": 4,
+  "activity_accuracy": 0.25,
+  "bed_occupancy_correct_count": 13,
+  "bed_occupancy_accuracy": 0.8125,
+  "accuracy_policy": "Unweighted accuracy at sampled timestamps. UNKNOWN predictions are included.",
+  "confusion_matrix_orientation": "Outer keys are actual labels; inner keys are predicted labels.",
+  "activity_confusion_matrix": {
+    "LYING_IN_BED": {
+      "LYING_IN_BED": 0,
+      "SITTING_ON_BED": 0,
+      "SITTING_OUTSIDE_BED": 0,
+      "STANDING": 0,
+      "WALKING": 0,
+      "OUT_OF_BED": 0,
+      "UNKNOWN": 0
+    },
+    "SITTING_ON_BED": {
+      "LYING_IN_BED": 9,
+      "SITTING_ON_BED": 1,
+      "SITTING_OUTSIDE_BED": 0,
+      "STANDING": 0,
+      "WALKING": 0,
+      "OUT_OF_BED": 0,
+      "UNKNOWN": 0
+    },
+    "SITTING_OUTSIDE_BED": {
+      "LYING_IN_BED": 0,
+      "SITTING_ON_BED": 0,
+      "SITTING_OUTSIDE_BED": 0,
+      "STANDING": 0,
+      "WALKING": 0,
+      "OUT_OF_BED": 0,
+      "UNKNOWN": 0
+    },
+    "STANDING": {
+      "LYING_IN_BED": 0,
+      "SITTING_ON_BED": 1,
+      "SITTING_OUTSIDE_BED": 0,
+      "STANDING": 0,
+      "WALKING": 0,
+      "OUT_OF_BED": 0,
+      "UNKNOWN": 0
+    },
+    "WALKING": {
+      "LYING_IN_BED": 0,
+      "SITTING_ON_BED": 1,
+      "SITTING_OUTSIDE_BED": 0,
+      "STANDING": 0,
+      "WALKING": 0,
+      "OUT_OF_BED": 0,
+      "UNKNOWN": 0
+    },
+    "OUT_OF_BED": {
+      "LYING_IN_BED": 0,
+      "SITTING_ON_BED": 0,
+      "SITTING_OUTSIDE_BED": 0,
+      "STANDING": 0,
+      "WALKING": 0,
+      "OUT_OF_BED": 0,
+      "UNKNOWN": 0
+    },
+    "UNKNOWN": {
+      "LYING_IN_BED": 0,
+      "SITTING_ON_BED": 1,
+      "SITTING_OUTSIDE_BED": 0,
+      "STANDING": 0,
+      "WALKING": 0,
+      "OUT_OF_BED": 0,
+      "UNKNOWN": 3
+    }
+  },
+  "activity_duration_comparison": {
+    "LYING_IN_BED": {
+      "predicted_sec": 4.5,
+      "ground_truth_sec": 0.0,
+      "signed_error_sec": 4.5,
+      "absolute_error_sec": 4.5
+    },
+    "SITTING_ON_BED": {
+      "predicted_sec": 2.0,
+      "ground_truth_sec": 5.0,
+      "signed_error_sec": -3.0,
+      "absolute_error_sec": 3.0
+    },
+    "SITTING_OUTSIDE_BED": {
+      "predicted_sec": 0,
+      "ground_truth_sec": 0.0,
+      "signed_error_sec": 0.0,
+      "absolute_error_sec": 0.0
+    },
+    "STANDING": {
+      "predicted_sec": 0,
+      "ground_truth_sec": 0.5,
+      "signed_error_sec": -0.5,
+      "absolute_error_sec": 0.5
+    },
+    "WALKING": {
+      "predicted_sec": 0,
+      "ground_truth_sec": 0.5,
+      "signed_error_sec": -0.5,
+      "absolute_error_sec": 0.5
+    },
+    "OUT_OF_BED": {
+      "predicted_sec": 0,
+      "ground_truth_sec": 0.0,
+      "signed_error_sec": 0.0,
+      "absolute_error_sec": 0.0
+    },
+    "UNKNOWN": {
+      "predicted_sec": 1.6199999999999992,
+      "ground_truth_sec": 2.119999999999999,
+      "signed_error_sec": -0.5,
+      "absolute_error_sec": 0.5
+    }
+  },
+  "bed_duration_comparison": {
+    "IN_BED": {
+      "predicted_sec": 6.5,
+      "ground_truth_sec": 5.0,
+      "signed_error_sec": 1.5,
+      "absolute_error_sec": 1.5
+    },
+    "OUT_OF_BED": {
+      "predicted_sec": 0.0,
+      "ground_truth_sec": 1.0,
+      "signed_error_sec": -1.0,
+      "absolute_error_sec": 1.0
+    },
+    "UNKNOWN": {
+      "predicted_sec": 1.6199999999999992,
+      "ground_truth_sec": 2.119999999999999,
+      "signed_error_sec": -0.5,
+      "absolute_error_sec": 0.5
+    }
+  },
+  "duration_policy": "Prediction labels are held until the next timestamp; the final label is held until the video ends.",
+  "event_evaluation": "Not calculated by this script."
+}

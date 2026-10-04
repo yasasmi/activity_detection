@@ -1,0 +1,10 @@
+{
+  "data_source": "reviewed_video_model_predictions",
+  "source_video": "/Users/kusal/Documents/activity_detection/data/room_02.mp4",
+  "observation_duration_sec": 8.12,
+  "confirmation_policy": "Sampled evidence time, delayed when necessary until the supporting reviewed history is available.",
+  "movement_policy": "Only an explicit true value supports directional movement. Missing or null evidence cannot confirm movement.",
+  "bed_exit_count": 0,
+  "bed_return_count": 0,
+  "events": []
+}
