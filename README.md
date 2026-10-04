@@ -254,12 +254,12 @@ These strict rules can miss events if intermediate states are
 misclassified or not captured by sampling.
 
 ## Monitoring rules
-
-| Condition                                                           | Decision |
-| Known activity and observed in bed                                  | NORMAL |
-| Uncertain activity or occupancy                                     | MONITOR |
-| Outside bed without a confirmed exit                                | MONITOR |
-| Confirmed exit with absence below threshold                         | MONITOR |
+| Condition | Decision |
+| --- | --- |
+| Known activity and observed in bed | NORMAL |
+| Uncertain activity or occupancy | MONITOR |
+| Outside bed without a confirmed exit | MONITOR |
+| Confirmed exit with absence below threshold | MONITOR |
 | Confirmed exit with continuous predicted absence reaching threshold | ALERT |
 
 The default absence threshold is 180 seconds. This is a configurable demonstration policy, not a clinically validated threshold.
@@ -324,10 +324,11 @@ No-event clips do not establish event-detection recall.
 
 ## Development results
 
-| Clip and run                        | Activity accuracy | Occupancy accuracy |
-| room.mp4, video_review_01           | 0/39 — 0%         | 39/39 — 100% |
-| room_02.mp4, revised first pass     | 0/16 — 0%         | 10/16 — 62.5% |
-| room_02.mp4, revised context review | 4/16 — 25%        | 13/16 — 81.25% |
+| Clip and run | Activity accuracy | Occupancy accuracy |
+| --- | --- | --- |
+| room.mp4, video_review_01 | 0/39 — 0% | 39/39 — 100% |
+| room_02.mp4, revised first pass | 0/16 — 0% | 10/16 — 62.5% |
+| room_02.mp4, revised context review | 4/16 — 25% | 13/16 — 81.25% |
 
 For the second clip after review:
 
