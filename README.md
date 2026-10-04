@@ -42,35 +42,42 @@ The Python controller manages context retrieval, bounded retries and event memor
 
 ## Project structure
 
-| Location            | Purpose |
-| activity_detection/ | Main Python package |
-| tests/              | Event, context-review and monitoring tests |
-| tools/              | Environment and model setup checks |
-| data/               | Input videos and images |
-| data/annotations/   | Manual ground-truth JSON files |
-| outputs/            | Predictions, summaries, review logs and evaluation |
-| docs/               | Supporting documentation and failure analysis |
-| requirements.txt    | Installed Python dependency versions |
+| Location | Purpose |
+| --- | --- |
+| `activity_detection/` | Main Python package |
+| `tests/` | Event, context-review and monitoring tests |
+| `tools/` | Environment and model setup checks |
+| `data/` | Local input videos and images; videos are excluded from Git |
+| `data/annotations/` | Manual ground-truth JSON files |
+| `outputs/` | Saved predictions, summaries, review logs and evaluation |
+| `docs/` | Architecture, evaluation and failure analysis |
+| `requirements.txt` | Installed Python dependency versions |
 
 ### Main modules
 
-| File                  | Responsibility |
-| load_model.py         | Load Qwen and its processor on Apple MPS |
-| prepare_video.py      | Extract frames and create a timestamp manifest |
-| analyze_image.py      | Generate a descriptive single-image response |
-| recognize_activity.py | Classify a single image and validate observations |
-| analyze_sequence.py   | Test a four-frame sequence |
-| analyze_video.py      | Generate observations across a video |
-| review_video.py       | Request additional context and resolve uncertainty |
-| activity_timeline.py  | Build activity intervals and calculate durations |
-| summarize_video.py    | Summarize real-video activity predictions |
-| summarize_bed.py.     | Summarize predicted bed occupancy |
-| bed_events.py         | Apply temporal exit and return rules |
-| video_events.py       | Connect reviewed observations to event detection |
-| video_monitoring.py   | Generate real-video monitoring decisions |
-| evaluate_video.py     | Calculate classification and duration metrics |
-| evaluate_events.py    | Calculate event matching and detection metrics |
+These files are inside the `activity_detection/` package.
 
+| File | Responsibility |
+| --- | --- |
+| `load_model.py` | Load Qwen and its processor on Apple MPS |
+| `prepare_video.py` | Extract frames and create a timestamp manifest |
+| `analyze_image.py` | Generate a descriptive single-image response |
+| `recognize_activity.py` | Classify a single image and validate observations |
+| `analyze_sequence.py` | Test a four-frame sequence |
+| `analyze_video.py` | Generate observations across a video |
+| `review_video.py` | Request additional context and review uncertainty |
+| `activity_timeline.py` | Build activity intervals and calculate durations |
+| `summarize_video.py` | Summarize real-video activity predictions |
+| `summarize_bed.py` | Summarize predicted bed occupancy |
+| `bed_events.py` | Apply temporal exit and return rules |
+| `video_events.py` | Connect reviewed observations to event detection |
+| `video_monitoring.py` | Generate real-video monitoring decisions |
+| `evaluate_video.py` | Calculate classification and duration metrics |
+| `evaluate_events.py` | Calculate event matching and detection metrics |
+
+`bed_occupancy.py` and `monitoring.py` contain the earlier synthetic
+demonstration logic. The real-video commands use `summarize_bed.py`
+and `video_monitoring.py`.
 bed_occupancy.py and monitoring.py contain the earlier synthetic demonstration logic. The real-video commands use summarize_bed.py and video_monitoring.py.
 
 ## Development environment
